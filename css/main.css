@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
 }
 
 *, *::before, *::after {
@@ -12,35 +13,40 @@ body {
   padding: 0;
 }
 
-.img-flex {
-  display: block;
-  width: 100%;
-}
-
 .banner {
   overflow: hidden;
   position: relative;
   max-height: 500px;
 }
 
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
 .banner-content {
-  padding: 0 1rem;
+  margin: 1.5em;
+  padding: 0;
   position: absolute;
-  bottom: 1rem;
-  max-width: 50em;
-  background-color:
-  transform: translateX(50%);
+  width: 43em;
+  max-width: 100%;
+  bottom: 2.3em;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.banner-title {
-  font-size: 4rem;
-  margin: 0;
+h2 {
+  display: inline;
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, .5);
+  font-size: 4rem;
+  padding: 0;
 }
 
-.banner-para {
+p {
   font-size: 2em;
-  margin: 0;
   font-style: italic;
+  margin: 0 1rem 0 0;
+  padding: 0;
+  line-height: 1.3;
 }
